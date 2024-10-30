@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 /**
  * Tests for the Utilities class.
  *
- * @author  Dr. Jody Paul
- * @version 1.1.0
+ * @author Copyright &copy; 2024 Dr. Jody Paul (GPLv3)
+ * @version 1.1.1
  */
 public class UtilitiesTest {
     /** No-parameter constructor for test class UtilitiesTest. */

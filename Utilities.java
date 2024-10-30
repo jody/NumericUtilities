@@ -3,8 +3,8 @@
  * Template for class that implements numeric utility functions.
  * Initial functions address numeric sequences.
  *
- * @author Dr. Jody Paul
- * @version 1.1.4
+ * @author Copyright &copy; 2024 Dr. Jody Paul (GPLv3)
+ * @version 1.1.5
  */
 public final class Utilities {
     /**
