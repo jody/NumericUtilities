@@ -35,8 +35,8 @@ public final class Utilities {
      * fibonacci(1)==1.
      *
      * @param  index the index of the desired value
-     *                   (valid for index >= 0)
-     * @return the Fibonacci number at the specific index
+     *               (valid for index >= 0)
+     * @return the number in the Fibonacci sequence at the specific index
      */
     public static long fibonacci(int index) {
         return index;
@@ -50,6 +50,10 @@ public final class Utilities {
      * tribonacci(1)==0,
      * tribonacci(2)==1,
      * tribonacci(n)==tribonacci(n-2)+tribonacci(n-2)+tribonacci(n-3).
+     *
+     * @param  index the index of the desired value
+     *               (valid for index >= 0)
+     * @return the number in the Tribonacci sequence at the specific index
      */
     public static long tribonacci(int index) {
         return index;
@@ -64,6 +68,10 @@ public final class Utilities {
      * fibonacciPrimes(1)==3,
      * fibonacciPrimes(2)==5, and
      * fibonacciPrimes(2)==13.
+     *
+     * @param  index the index of the desired value
+     *               (valid for index >= 0)
+     * @return the number in the Fibonacci primes sequence at the specific index
      */
     public static long fibonacciPrimes(int index) {
         return index;
