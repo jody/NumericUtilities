@@ -5,9 +5,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 /**
  * Tests for the Utilities class.
- *
+ * 
+ * <h2>Reflection:</h2>
+ * Personal learning and insights gained as
+ * a result of reflecting back on this assignment.
+ * @author Your Name Here
+ * 
  * @author Copyright &copy; 2024 Dr. Jody Paul (GPLv3)
- * @version 1.1.1
+ * @version 1.1.2
  */
 public class UtilitiesTest {
     /** No-parameter constructor for test class UtilitiesTest. */
