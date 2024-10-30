@@ -16,6 +16,8 @@ public final class Utilities {
      * Determines the number of unique connections between
      * fully-connected members of a group of the specified
      * size.
+     * The sequence starts with numberOfConnections(0)==0
+     * numberOfConnections(1)==0, numberOfConnections(2)==1.
      *
      * @param  numPeople the number of people in the group
      *                   (valid for numPeople >= 0)
@@ -44,10 +46,10 @@ public final class Utilities {
      * Determine the number in a Tribonacci sequence
      * corresponding to the index given as the parameter.
      * The sequence is defined as follows:
-     * tribonacci(0)==0;
-     * tribonacci(1)==0;
-     * tribonacci(2)==1;
-     * tribonacci(n)==tribonacci(n-2)+tribonacci(n-2)+tribonacci(n-3)
+     * tribonacci(0)==0,
+     * tribonacci(1)==0,
+     * tribonacci(2)==1,
+     * tribonacci(n)==tribonacci(n-2)+tribonacci(n-2)+tribonacci(n-3).
      */
     public static long tribonacci(int index) {
         return index;
@@ -58,10 +60,10 @@ public final class Utilities {
      * corresponding to the index given as the parameter.
      * A Fibonacci prime number is a Fibonacci number that is also prime.
      * The first few Fibonacci primes are the following.
-     * fibonacciPrimes(0)==2;
-     * fibonacciPrimes(1)==3;
-     * fibonacciPrimes(2)==5;
-     * fibonacciPrimes(2)==13;
+     * fibonacciPrimes(0)==2,
+     * fibonacciPrimes(1)==3,
+     * fibonacciPrimes(2)==5, and
+     * fibonacciPrimes(2)==13.
      */
     public static long fibonacciPrimes(int index) {
         return index;
