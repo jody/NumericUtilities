@@ -4,13 +4,13 @@
  * Initial functions address numeric sequences.
  *
  * @author Copyright &copy; 2024 Dr. Jody Paul (GPLv3)
- * @version 1.1.5
+ * @version 1.1.6
  */
 public final class Utilities {
     /**
      * Hide constructor because this is a utility class.
      */
-    Utilities() { }
+    private Utilities() { }
 
     /**
      * Determines the number of unique connections between
@@ -49,7 +49,7 @@ public final class Utilities {
      * tribonacci(0)==0,
      * tribonacci(1)==0,
      * tribonacci(2)==1,
-     * tribonacci(n)==tribonacci(n-2)+tribonacci(n-2)+tribonacci(n-3).
+     * tribonacci(n)==tribonacci(n-1)+tribonacci(n-2)+tribonacci(n-3).
      *
      * @param  index the index of the desired value
      *               (valid for index >= 0)
@@ -67,7 +67,7 @@ public final class Utilities {
      * fibonacciPrimes(0)==2,
      * fibonacciPrimes(1)==3,
      * fibonacciPrimes(2)==5, and
-     * fibonacciPrimes(2)==13.
+     * fibonacciPrimes(3)==13.
      *
      * @param  index the index of the desired value
      *               (valid for index >= 0)
